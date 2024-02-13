@@ -16,3 +16,8 @@
 7 - Commande pour déchoir et promouvoir un noeud : 
     docker node promote 
     docker node demote
+
+8 - Notion d'équivalence entre Kubernetes et Swarm
+    Deploy : replicas => spec : replicas
+    image => spec : container : image
+    ports => ports & targetPort
